@@ -1,0 +1,11 @@
+,grayhole,high_StNum,injection,inverse_replay,masquerade_fake_fault,masquerade_fake_normal,normal,poisoned_high_rate,random_replay,unknown
+grayhole,225,0,19590,0,0,0,0,0,0,0
+high_StNum,108,0,3231,0,0,0,0,0,0,0
+injection,2043,0,17950,0,0,0,0,0,0,0
+inverse_replay,779,0,19178,0,0,0,0,0,0,0
+masquerade_fake_fault,0,0,20000,0,0,0,0,0,0,0
+masquerade_fake_normal,0,0,16778,0,0,0,0,0,0,0
+normal,753,0,38656,0,0,0,0,0,0,0
+poisoned_high_rate,0,0,19998,0,0,0,0,0,0,0
+random_replay,641,0,19042,0,0,0,0,0,0,0
+unknown,0,0,0,0,0,0,54,0,0,0

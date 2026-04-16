@@ -1,0 +1,18 @@
+                        precision    recall  f1-score   support
+
+              grayhole       0.00      0.00      0.00     19999
+            high_StNum       0.00      0.00      0.00     20000
+             injection       0.11      0.98      0.19     20000
+        inverse_replay       0.00      0.00      0.00     20000
+            masquerade       0.00      0.00      0.00         0
+ masquerade_fake_fault       0.00      0.00      0.00     20000
+masquerade_fake_normal       0.00      0.00      0.00     20000
+                normal       0.00      0.00      0.00     39999
+    poisoned_high_rate       0.00      0.00      0.00     20000
+                random       0.00      0.00      0.00         0
+         random_replay       0.00      0.00      0.00     20000
+               unknown       0.00      0.00      0.00        54
+
+              accuracy                           0.10    200052
+             macro avg       0.01      0.08      0.02    200052
+          weighted avg       0.01      0.10      0.02    200052

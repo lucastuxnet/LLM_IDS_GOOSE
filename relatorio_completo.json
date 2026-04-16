@@ -1,0 +1,221 @@
+{
+  "data_analise": "2026-04-15 17:40:19.493230",
+  "total_amostras": 200052,
+  "acuracia_global": 0.0908513786415532,
+  "metricas_por_classe": [
+    {
+      "classe": "grayhole",
+      "precisao": 0.049461420092327985,
+      "recall": 0.011250562528126406,
+      "f1_score": 0.018331432295910055,
+      "suporte": 19999.0
+    },
+    {
+      "classe": "high_StNum",
+      "precisao": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "suporte": 20000.0
+    },
+    {
+      "classe": "injection",
+      "precisao": 0.10291073998268577,
+      "recall": 0.8975,
+      "f1_score": 0.18464893556832268,
+      "suporte": 20000.0
+    },
+    {
+      "classe": "inverse_replay",
+      "precisao": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "suporte": 20000.0
+    },
+    {
+      "classe": "masquerade_fake_fault",
+      "precisao": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "suporte": 20000.0
+    },
+    {
+      "classe": "masquerade_fake_normal",
+      "precisao": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "suporte": 20000.0
+    },
+    {
+      "classe": "normal",
+      "precisao": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "suporte": 39999.0
+    },
+    {
+      "classe": "poisoned_high_rate",
+      "precisao": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "suporte": 20000.0
+    },
+    {
+      "classe": "random_replay",
+      "precisao": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "suporte": 20000.0
+    },
+    {
+      "classe": "unknown",
+      "precisao": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "suporte": 54.0
+    }
+  ],
+  "macro_avg": {
+    "precisao": 0.015237216007501376,
+    "recall": 0.09087505625281264,
+    "f1_score": 0.020298036786423272
+  },
+  "weighted_avg": {
+    "precisao": 0.015233008118290158,
+    "recall": 0.0908513786415532,
+    "f1_score": 0.020292669035312613
+  },
+  "matriz_confusao": [
+    [
+      225,
+      0,
+      19590,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      108,
+      0,
+      3231,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2043,
+      0,
+      17950,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      779,
+      0,
+      19178,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      20000,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      16778,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      753,
+      0,
+      38656,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      19998,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      641,
+      0,
+      19042,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      54,
+      0,
+      0,
+      0
+    ]
+  ],
+  "classes": [
+    "grayhole",
+    "high_StNum",
+    "injection",
+    "inverse_replay",
+    "masquerade_fake_fault",
+    "masquerade_fake_normal",
+    "normal",
+    "poisoned_high_rate",
+    "random_replay",
+    "unknown"
+  ]
+}

@@ -1,0 +1,11 @@
+true_class,injection,masquerade,random
+grayhole,19910,83,6
+high_StNum,10969,9031,0
+injection,19514,459,27
+inverse_replay,20000,0,0
+masquerade_fake_fault,19821,173,6
+masquerade_fake_normal,16733,3267,0
+normal,39574,413,12
+poisoned_high_rate,19276,722,2
+random_replay,19632,363,5
+unknown,0,0,54
