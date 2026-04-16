@@ -1,0 +1,9 @@
+Classe,TP,FP,FN,Precision,Recall,F1-Score,Support
+grayhole,19999,140000,0,0.125,1.0,0.2222,19999
+injection,0,0,20000,0.0,0.0,0.0,20000
+high_StNum,0,0,20000,0.0,0.0,0.0,20000
+random_replay,0,0,20000,0.0,0.0,0.0,20000
+masquerade_fake_normal,0,0,20000,0.0,0.0,0.0,20000
+inverse_replay,0,0,20000,0.0,0.0,0.0,20000
+masquerade_fake_fault,0,0,20000,0.0,0.0,0.0,20000
+poisoned_high_rate,0,0,20000,0.0,0.0,0.0,20000
