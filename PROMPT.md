@@ -107,7 +107,7 @@ def rule_masq_fake_normal_sqnum_reset(packet: dict) -> bool:
 
 ---
 
-Referência no Código Fonte
+## Referência no Código Fonte
 Função	Localização
 make_red_flags_prompt()	Célula 2 do notebook
 make_rules_prompt_from_red_flags()	Célula 4 do notebook
