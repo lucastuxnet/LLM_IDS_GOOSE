@@ -103,17 +103,12 @@ def rule_masq_fake_normal_sqnum_reset(packet: dict) -> bool:
     if sqnum == 0 and packet.get("stNumDiff", 0) > 0:
         return True
     return False
+```
+
+---
+
 Referência no Código Fonte
 Função	Localização
 make_red_flags_prompt()	Célula 2 do notebook
 make_rules_prompt_from_red_flags()	Célula 4 do notebook
 Arquivo demonstrativo - Implementação oficial no notebook SBRC_2026_LLM_IDS_GOOSE.ipynb
-
-
-Agora o arquivo contém **apenas**:
-- Os prompts (texto principal)
-- Parâmetros técnicos
-- Exemplo de saída
-- Referência rápida ao código fonte
-
-Sem justificativas, sem análises, sem seções extras. Puro conteúdo demonstrativo.
