@@ -108,7 +108,10 @@ def rule_masq_fake_normal_sqnum_reset(packet: dict) -> bool:
 ---
 
 ## Referência no Código Fonte
-Função	Localização
-make_red_flags_prompt()	Célula 2 do notebook
-make_rules_prompt_from_red_flags()	Célula 4 do notebook
+| Função | Localização |
+|-----------|-------|
+| make_red_flags_prompt() | Célula 2 do notebook |
+| make_rules_prompt_from_red_flags() | Célula 4 do notebook |
+	
+	
 Arquivo demonstrativo - Implementação oficial no notebook SBRC_2026_LLM_IDS_GOOSE.ipynb
