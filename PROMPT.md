@@ -11,12 +11,15 @@ Você é um modelo especializado em detecção de intrusões em tráfego IEC 618
 {red_flags_text}
 
 Tarefa:
+...
 Converta essas red flags em FUNÇÕES DE REGRAS DE DETECÇÃO em Python para identificar pacotes suspeitos da classe '{attack_class}'.
-
+...
 Regras de saída:
+...
 Retorne APENAS código Python válido, sem explicações, comentários extras ou markdown.
+...
 Crie de 3 a 5 funções com a forma:
-```python
+```
 def rule_{attack_class}_<nome_curto>(packet: dict) -> bool:
 """Retorna True se o pacote for suspeito desse ataque."""
 ```
