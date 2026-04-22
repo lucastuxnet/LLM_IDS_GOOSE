@@ -11,18 +11,15 @@ Você é um modelo especializado em detecção de intrusões em tráfego IEC 618
 {red_flags_text}
 
 Tarefa:
-...
 Converta essas red flags em FUNÇÕES DE REGRAS DE DETECÇÃO em Python para identificar pacotes suspeitos da classe '{attack_class}'.
-...
+
 Regras de saída:
-...
 Retorne APENAS código Python válido, sem explicações, comentários extras ou markdown.
-...
 Crie de 3 a 5 funções com a forma:
-```
+
 def rule_{attack_class}_<nome_curto>(packet: dict) -> bool:
 """Retorna True se o pacote for suspeito desse ataque."""
-```
+
 lógica usando apenas campos presentes em packet
 ...
 
@@ -53,6 +50,7 @@ Trate campos ausentes com packet.get("campo", valor_padrao)
 ---
 
 ## Prompt para Extração de Red Flags (Primeiro Estágio)
+
 Analyze GOOSE traffic for IEC 61850 substation.
 
 NORMAL (reference means):
@@ -71,10 +69,13 @@ REASON: [why anomalous per IEC 61850]
 
 Focus on StNum, SqNum, timestampDiff patterns.
 
+
 ---
 
 ## Mensagem de Sistema (System Prompt)
+
 Você é um especialista em segurança IEC 61850 e desenvolvedor Python. Dado o contexto e as red flags, você deve retornar SOMENTE código Python válido. Não inclua explicações, texto em linguagem natural ou markdown. Apenas código Python puro.
+
 
 ---
 
@@ -107,14 +108,11 @@ def rule_masq_fake_normal_sqnum_reset(packet: dict) -> bool:
         return True
     return False
 ```
-
 ---
 
 ## Referência no Código Fonte
+
 | Função | Localização |
 |-----------|-------|
 | make_red_flags_prompt() | Célula 2 do notebook |
 | make_rules_prompt_from_red_flags() | Célula 4 do notebook |
-	
-	
-Arquivo demonstrativo - Implementação oficial no notebook SBRC_2026_LLM_IDS_GOOSE.ipynb
