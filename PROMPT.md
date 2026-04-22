@@ -16,10 +16,10 @@ Converta essas red flags em FUNÇÕES DE REGRAS DE DETECÇÃO em Python para ide
 Regras de saída:
 Retorne APENAS código Python válido, sem explicações, comentários extras ou markdown.
 Crie de 3 a 5 funções com a forma:
-
+```python
 def rule_{attack_class}_<nome_curto>(packet: dict) -> bool:
 """Retorna True se o pacote for suspeito desse ataque."""
-
+```
 lógica usando apenas campos presentes em packet
 ...
 
