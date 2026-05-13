@@ -1,12 +1,35 @@
-numpy==2.3.3
-pandas==2.3.3
+# ============================================================
+# SBSEC_2026 — Dependências Python
+# LLM-driven Pipeline for Real-Time GOOSE IDS
+# ============================================================
 
+# ── LLM / API ────────────────────────────────────────────────
 groq==1.1.2
 python-dotenv==1.0.0
 
+# ── HTTP / transporte ────────────────────────────────────────
 httpx==0.28.1
 anyio>=3.5.0,<5
-pydantic>=1.9.0,<3
-typing-extensions>=4.7,<5
 sniffio>=1.3.0
 distro>=1.7.0
+
+# ── Dados ────────────────────────────────────────────────────
+numpy==2.3.3
+pandas==2.3.3
+
+# ── Validação / schemas ──────────────────────────────────────
+pydantic>=1.9.0,<3
+typing-extensions>=4.7,<5
+
+# ── Machine learning (filtro FPR + métricas) ─────────────────
+scikit-learn>=1.4.0
+
+# ── Visualização ─────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# ── Jupyter (executar o notebook) ────────────────────────────
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.29.0
+ipywidgets>=8.1.0
