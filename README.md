@@ -15,10 +15,10 @@ This repository complies with the following artifact evaluation badges:
 
 | Badge | Status | Description |
 | --- | --- | --- |
-| **Available (D)** | ✅ | Source code, notebook, and sample data are publicly available in this repository. |
-| **Functional (F)** | ✅ | The notebook can be executed from start to finish (requires Groq API key). |
-| **Sustainable (S)** | ✅ | Modular structure, fixed dependencies in `requirements.txt`, clear documentation. |
-| **Reproducible (R)** | ✅ | Fixed random seeds (`random_state=42`) and step-by-step documentation for experiment reproduction. |
+| **Available (D)** | Source code, notebook, and sample data are publicly available in this repository. |
+| **Functional (F)** | The notebook can be executed from start to finish (requires Groq API key). |
+| **Sustainable (S)** | Modular structure, fixed dependencies in `requirements.txt`, clear documentation. |
+| **Reproducible (R)** | Fixed random seeds (`random_state=42`) and step-by-step documentation for experiment reproduction. |
 
 ---
 
