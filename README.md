@@ -55,11 +55,11 @@ The GOOSE protocol, in particular, was not designed with robust native security 
 ## Pipeline
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌───────────────────┐    ┌──────────────────┐    ┌──────────────────┐
+┌─────────────────┐     ┌──────────────────┐     ┌───────────────────┐     ┌──────────────────┐     ┌──────────────────┐
 │  Labeled GOOSE  │───▶│ Red Flag Extract.│───▶│  Rule Generation  │───▶│  Rule Refinement │───▶│ Switch Simulation│
-│  Dataset        │    │  (LLM-based)     │    │  (rules_raw.py)   │    │  (rules.py)      │    │  (Real-time)     │
-│  (ERENO 2.0)    │    │                  │    │                   │    │                  │    │                  │
-└─────────────────┘    └──────────────────┘    └───────────────────┘    └──────────────────┘    └──────────────────┘
+│  Dataset        │     │  (LLM-based)     │     │  (rules_raw.py)   │     │  (rules.py)      │     │  (Real-time)     │
+│  (ERENO 2.0)    │     │                  │     │                   │     │                  │     │                  │
+└─────────────────┘     └──────────────────┘     └───────────────────┘     └──────────────────┘     └──────────────────┘
 ```
 
 | Stage | Responsibility |
