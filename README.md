@@ -15,10 +15,10 @@ This repository complies with the following artifact evaluation badges:
 
 | Badge | Status | Description |
 | --- | --- | --- |
-| **Available (D)** | ✅ | Source code, notebook, and sample data are publicly available in this repository. |
-| **Functional (F)** | ✅ | The notebook can be executed from start to finish (requires Groq API key). |
-| **Sustainable (S)** | ✅ | Modular structure, fixed dependencies in `requirements.txt`, clear documentation. |
-| **Reproducible (R)** | ✅ | Fixed random seeds (`random_state=42`) and step-by-step documentation for experiment reproduction. |
+| **Available (D)** | Source code, notebook, and sample data are publicly available in this repository. |
+| **Functional (F)** | The notebook can be executed from start to finish (requires Groq API key). |
+| **Sustainable (S)** | Modular structure, fixed dependencies in `requirements.txt`, clear documentation. |
+| **Reproducible (R)** | Fixed random seeds (`random_state=42`) and step-by-step documentation for experiment reproduction. |
 
 ---
 
@@ -55,11 +55,11 @@ The GOOSE protocol, in particular, was not designed with robust native security 
 ## Pipeline
 
 ```
-┌─────────────────┐    ┌──────────────────┐    ┌───────────────────┐    ┌──────────────────┐    ┌──────────────────┐
+┌─────────────────┐     ┌──────────────────┐     ┌───────────────────┐     ┌──────────────────┐     ┌──────────────────┐
 │  Labeled GOOSE  │───▶│ Red Flag Extract.│───▶│  Rule Generation  │───▶│  Rule Refinement │───▶│ Switch Simulation│
-│  Dataset        │    │  (LLM-based)     │    │  (rules_raw.py)   │    │  (rules.py)      │    │  (Real-time)     │
-│  (ERENO 2.0)    │    │                  │    │                   │    │                  │    │                  │
-└─────────────────┘    └──────────────────┘    └───────────────────┘    └──────────────────┘    └──────────────────┘
+│  Dataset        │     │  (LLM-based)     │     │  (rules_raw.py)   │     │  (rules.py)      │     │  (Real-time)     │
+│  (ERENO 2.0)    │     │                  │     │                   │     │                  │     │                  │
+└─────────────────┘     └──────────────────┘     └───────────────────┘     └──────────────────┘     └──────────────────┘
 ```
 
 | Stage | Responsibility |
